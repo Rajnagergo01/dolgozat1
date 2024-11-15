@@ -11,5 +11,7 @@ class KönyvController extends Controller
         return view("könyvek.create",compact("máfajok"));
     }
 
-    public function store(Request $request)
+    public function store(Request $request){
+        
+    }
 }
